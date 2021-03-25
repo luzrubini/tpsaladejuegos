@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 .topnav {
-    background-color: rgb(212, 197, 247);
+    background-color:#adaaaa;
     overflow: hidden;
   }
   
@@ -23,6 +23,6 @@
   
   /* Add a color to the active/current link */
   .topnav a.active {
-    background-color: #2f0f88;
+    background-color: #000000;
     color: white;
   }

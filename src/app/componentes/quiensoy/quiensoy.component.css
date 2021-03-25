@@ -1,3 +1,4 @@
+@import url('../../app.component.css');
 
 /* =======================================================
 *
@@ -83,7 +84,7 @@ body {
     transition: 0.5s;
   }
   a:hover, a:active, a:focus {
-    color: #5f21d3;
+    color: #adaaaa;
     outline: none;
     text-decoration: none;
   }
@@ -101,17 +102,17 @@ body {
   
   ::-webkit-selection {
     color: #fff;
-    background: #5f21d3;
+    background: #adaaaa;
   }
   
   ::-moz-selection {
     color: #fff;
-    background: #5f21d3;
+    background: #adaaaa;
   }
   
   ::selection {
     color: #fff;
-    background: #5f21d3;
+    background: #adaaaa;
   }
   
   .gtco-nav {
@@ -264,7 +265,7 @@ body {
     border-radius: 30px;
   }
   .gtco-nav ul li.btn-cta a:hover span {
-    background: #a25cf3;
+    background: #adaaaa;
     color: #fff;
   }
   .gtco-nav ul li.active > a {
@@ -292,14 +293,14 @@ body {
     color: black;
   }
   .gtco-nav.scrolled ul li.active > a {
-    color: #5f21d3 !important;
+    color: #000000 !important;
   }
   .gtco-nav.scrolled ul li.btn-cta a {
     color: #fff;
   }
   .gtco-nav.scrolled ul li.btn-cta a span {
     border: none !important;
-    background: #5f21d3;
+    background: #adaaaa;
     padding: 4px 20px;
     color: #fff;
   }
@@ -356,80 +357,6 @@ body {
   
   #gtco-header,
   #gtco-counter,
-  .gtco-bg {
-    background-size: cover;
-    background-position: top center;
-    background-repeat: no-repeat;
-    position: relative;
-  }
-  
-  .gtco-bg {
-    background-position: center center;
-    width: 100%;
-    float: left;
-    position: relative;
-  }
-  
-  .gtco-video {
-    height: 450px;
-    overflow: hidden;
-    margin-bottom: 30px;
-    -webkit-border-radius: 7px;
-    -moz-border-radius: 7px;
-    -ms-border-radius: 7px;
-    border-radius: 7px;
-  }
-  .gtco-video.gtco-video-sm {
-    height: 250px;
-  }
-  .gtco-video a {
-    z-index: 1001;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -45px;
-    margin-left: -45px;
-    width: 90px;
-    height: 90px;
-    display: table;
-    text-align: center;
-    background: #fff;
-    -webkit-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75);
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    border-radius: 50%;
-  }
-  .gtco-video a i {
-    text-align: center;
-    display: table-cell;
-    vertical-align: middle;
-    font-size: 40px;
-  }
-  .gtco-video .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
-    -webkit-transition: 0.5s;
-    -o-transition: 0.5s;
-    transition: 0.5s;
-  }
-  .gtco-video:hover .overlay {
-    background: rgba(0, 0, 0, 0.7);
-  }
-  .gtco-video:hover a {
-    position: relative;
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    transform: scale(1.2);
-  }
   
   .gtco-cover {
     height: 900px;
@@ -440,7 +367,7 @@ body {
     width: 100%;
   }
   .gtco-cover a {
-    color: #5f21d3;
+    color: #adaaaa;
   }
   .gtco-cover a:hover {
     color: white;
@@ -621,7 +548,7 @@ body {
   #gtco-our-team .gtco-team-reverse .img-shadow,
   #gtco-our-team .gtco-team .img-shadow {
     position: relative;
-    background: #5f21d3;
+    background: #adaaaa;
     width: 100%;
     float: left;
     margin-bottom: 30px;
@@ -697,11 +624,11 @@ body {
     position: absolute;
     width: 72px;
     height: 2px;
-    background: #5f21d3;
+    background: #adaaaa;
   }
   
   .heading-colored {
-    color: #5f21d3;
+    color: #adaaaa;
   }
   
   .read-more i {
@@ -733,7 +660,7 @@ body {
     display: inline-block;
     zoom: 1;
     *display: inline;
-    color: #5f21d3;
+    color: #adaaaa;
     padding-left: 10px;
     padding-right: 10px;
   }
@@ -759,7 +686,7 @@ body {
     position: relative;
   }
   .gtco-contact-info ul li:before {
-    color: #5f21d3;
+    color: #adaaaa;
     position: absolute;
     left: 0;
     top: .05em;

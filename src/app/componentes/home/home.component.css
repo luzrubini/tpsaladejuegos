@@ -1,3 +1,5 @@
+@import url('../../app.component.css');
+
 ul {
 	padding: 0;
 	margin: 0;
@@ -7,7 +9,9 @@ ul {
 body {
 	font-family: 'Open Sans', sans-serif;
 }
-
+a{
+  color: #000000;
+}
 p {
 	font-size: 13px;
 	color: #7a7a7a;
@@ -18,7 +22,7 @@ p {
 =======================*/
 
 .first-section {
-	background-image: url("../../../img/8029a496a66be0935ed53700dd615bc9.png");
+	background-image: url("../../../img/ba30ebe810c686c2c511b5d95fb44af0.png");
 	background-size:cover;
 	width: 100%;
 	background-repeat: no-repeat;
@@ -68,12 +72,16 @@ p {
 }
 
 .second-section h4 {
-	font-size: 16px;
-	color: #6a13bb;
+	font-size: 18px;
+	color: #000000;
+  font-weight:bold;
 	margin-top: 25px;
 	margin-bottom: 15px;
 }
+.second-section a{
+  color: #000000;
 
+}
 /**BOTSTRAP*/
 html {
     font-family: sans-serif;

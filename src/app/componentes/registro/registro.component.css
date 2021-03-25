@@ -1,5 +1,4 @@
 @import url('../../app.component.css');
-
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 
 * {
@@ -7,7 +6,7 @@
 }
 
 body {
-	background: #f6f5f7;
+	background: #adaaaa;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -53,7 +52,7 @@ a {
 button {
 	border-radius: 20px;
 	border: 1px solid #000000;
-	background-color: #adaaaa;
+	background-color: #ffffff;
 	color: #000000;
 	font-size: 12px;
 	font-weight: bold;
@@ -72,12 +71,16 @@ button:focus {
 }
 
 button.ghost {
-	background-color: #FFFFFF;
+	background-color: #adaaaa;
 	border-color: #000000;
 }
 
 form {
-	background-color: #FFFFFF;
+	background-image: url('../../../img/ba30ebe810c686c2c511b5d95fb44af0.png');
+	background-repeat:repeat;
+	background-position: left;
+	background-size: cover;
+	color: #ffffff;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -88,7 +91,7 @@ form {
 }
 
 input {
-	background-color: rgb(201, 201, 201);
+	background-color: rgb(190, 190, 190);
 	border: none;
 	padding: 12px 15px;
 	margin: 8px 0;
@@ -96,7 +99,7 @@ input {
 }
 
 .container {
-	background-color: rgb(175, 175, 175);
+	background-color: #fff;
 	border-radius: 10px;
   	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
 			0 10px 10px rgba(0,0,0,0.22);
@@ -168,11 +171,12 @@ input {
 }
 
 .overlay {
-	background-image: url('../../../img/ba30ebe810c686c2c511b5d95fb44af0.png');
-	background-repeat:repeat;
-	background-position: left;
-	background-size: cover;
-	color: #ffffff;
+	background: #FFFFFF;
+	background: -webkit-linear-gradient(to right,#FFFFFF, #FFFFFF);
+	background: linear-gradient(to right, #FFFFFF, #FFFFFF);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	color: #0a0909;
 	position: relative;
 	left: -100%;
 	height: 100%;
@@ -234,7 +238,7 @@ input {
 
 footer {
     background-color: #222;
-    color: rgb(0, 0, 0);
+    color: #fff;
     font-size: 14px;
     bottom: 0;
     position: fixed;
